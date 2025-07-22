@@ -37,9 +37,8 @@ require('dotenv').config();
 const { Client } = require('discord.js-selfbot-v13');
 const { joinVoiceChannel } = require('@discordjs/voice');
 const { setTimeout } = require('timers/promises');
-/// 𝓢𝔂𝓴𝓡𝓲𝓽 ⁴⁰⁴
-////////////////////.  Originals/ VIP.RooM ___    11pm's/ xSr    ___    Good Night/  ST7  ____  NTL/ Derosi  ____    Last Love   ____
-const voiceChannels = ['1214053105616953404','1310780396018995260','1269046920282902660','1284013821337276459','1319849668959801374'];
+
+const voiceChannels = ['000000000000000000','000000000000000000']; // Replace with your voice channel IDs
 
 const checkAndJoin = async (client, channelId) => {
   try {
